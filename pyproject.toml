@@ -14,5 +14,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
- "pandas",
- ]
+  "bumpver",
+  "pytest",
+  "pytest-cov",
+]
